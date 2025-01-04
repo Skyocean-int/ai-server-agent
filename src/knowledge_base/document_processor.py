@@ -10,8 +10,8 @@ logger = logging.getLogger(__name__)
 class DocumentProcessor:
     def __init__(self):
         self.documentation_paths = {
-            'origintrail': '/opt/ai-agent/docs/dkg/dkg-docs',
-            'erpnext': '/opt/ai-agent/docs/erpnext/erpnext'
+            'your documentation': 'path',
+            'your documentation': 'path'
         }
         self.SUPPORTED_TYPES = {
             '.md': 'markdown',
